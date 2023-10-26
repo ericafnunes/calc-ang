@@ -1,0 +1,24 @@
+<div class="conteudo">
+    <div class="container-principal-form">
+        <input [(ngModel)]="showValue" type="text" id="showValue">
+            <div class="btns">
+                <button (click)="showScreen('7')">7</button>
+                <button (click)="showScreen('8')">8</button>
+                <button (click)="showScreen('9')">9</button>
+                <button (click)="setOperator('+')">+</button>
+                <button (click)="showScreen('4')">4</button>
+                <button (click)="showScreen('5')">5</button>
+                <button (click)="showScreen('6')">6</button>
+                <button (click)="setOperator('-')">-</button>
+                <button (click)="showScreen('1')">1</button>
+                <button (click)="showScreen('2')">2</button>
+                <button (click)="showScreen('3')">3</button>
+                <button (click)="setOperator('*')">*</button>
+                <button (click)="showScreen('0')">0</button>
+                <button (click)="showScreen('.')">.</button>
+                <button (click)="calculate()">=</button>
+                <button (click)="setOperator('/')">/</button>
+                <button (click)="clear()">C</button>               
+            </div>
+    </div>
+</div>
